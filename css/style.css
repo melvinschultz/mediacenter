@@ -1,0 +1,85 @@
+img {
+  width: 150px;
+  height: 200px;
+}
+.jumbotron {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.jumbotron p {
+  font-size: 15px;
+}
+.alphabet{
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.liste {
+  display: flex;
+  flex-wrap: wrap;
+}
+.desc {
+  margin: auto;
+}
+.affiche {
+  width: 150px;
+  margin: 10px;
+}
+.form-control {
+  background-color: #222222; /* pour themeCyborg.css */
+}
+input {
+  margin: 10px 0; /* pour themeCyborg.css */
+}
+input:focus {
+  color: #fff; /* pour themeCyborg.css */
+}
+h1 {
+  color: #888888; /* pour themeCyborg.css */
+}
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.radio {
+  line-height: 2.1;
+  margin-left: 20px;
+}
+.radio label {
+  padding-left: 10px;
+  cursor: default;
+}
+#optionsRadios1, #optionsRadios2 {
+  cursor: pointer;
+}
+
+/*MODAL*/
+.modal-dialog {
+  width: 70%;
+}
+/*.modal-content{
+  background-color: #F9F9F9;
+}*/ /* pour le theme app.css */
+.modal-header {
+  text-align: center;
+  color: #fff; /* pour themeCyborg.css */
+  border-bottom: none;
+}
+.modal-body {
+  display: flex;
+  padding-bottom: 40px;
+}
+.modal-body img {
+  margin-left: 35px;
+}
+.description {
+  width: 70%;
+  margin: auto;
+  color: #EAEAEA;
+}
+.bandeAnnonce:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
